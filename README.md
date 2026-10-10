@@ -1,2 +1,2 @@
 # Pong Game
-A simple Pong game with HTML, CSS, and JavaScript
+A simple Pong game inside an HTML file.
