@@ -245,9 +245,7 @@
         game.rightScore += 1;
         updateScoreboard();
         resetBall("right");
-      }
-
-      if (ball.x - ball.radius > game.width) {
+      } else if (ball.x - ball.radius > game.width) {
         game.leftScore += 1;
         updateScoreboard();
         resetBall("left");
@@ -272,10 +270,6 @@
       handleBallWallCollision();
       handlePaddleCollision();
       scorePoint();
-
-      if (ball.x < 0 || ball.x > game.width) {
-        ball.x = game.width / 2;
-      }
     }
 
     function drawPaddle(x, y, width, height) {
