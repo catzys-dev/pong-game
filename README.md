@@ -1,2 +1,2 @@
-# pong-game
+# Pong Game
 A simple Pong game with HTML, CSS, and JavaScript
